@@ -1,0 +1,25 @@
+<h1>hello world</h1>
+<h2>hello world</h2>
+<h5>hello world</h5>
+<button onclick="changeColor(this)">click here</button>
+
+h1{
+color:red;
+margin:100px;
+font-size:35px}
+h2{
+color:blue
+}
+
+button{
+padding:20px;
+font-size:20px;
+background:red;
+color: #fff;
+border: 0;
+margin: 50px
+}
+
+function changeColor(x){
+x.style.background = "black";
+}
